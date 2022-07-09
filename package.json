@@ -1,0 +1,21 @@
+{
+  "name": "esm-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx webpack -w",
+    "build": "npx webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "leaflet": "^1.8.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "@geoman-io/leaflet-geoman-free": "^2.13.0"
+  }
+}
