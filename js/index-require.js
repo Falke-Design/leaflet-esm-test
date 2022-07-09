@@ -7,4 +7,4 @@ var map = L.map('map',{
   zoom: 1
 });
 
-console.log(L, L.PM)
+alert(L.PM)
